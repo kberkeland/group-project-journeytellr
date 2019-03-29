@@ -1,0 +1,137 @@
+body {
+    font-family: Montserrat, Lato, sans-serif;
+    margin: 0px;
+    font-size: 12px;
+    /* background-color: rgba(220, 220, 220, 0.671); */
+}
+
+h1 {
+    color: rgb(217, 139, 79);
+}
+
+.nav {
+    overflow: hidden;
+    /* background-color: white; */
+    background-color: rgba(220, 220, 220, 0.671);
+    min-height: 85px;
+    padding: 10px 0px;
+}
+
+.ant-list-item-meta-description {
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 10px;
+  }
+
+.ant-list-item-meta-avatar {
+    margin-right: 8px;
+  }
+
+.ant-card-body {
+    zoom: 1;
+    padding: 10px;
+}
+
+.ant-card-meta-avatar {
+    padding: 2px;
+    margin-left: 10px;
+  }
+
+.ant-card-meta-title {
+    overflow: hidden;
+    color:#3fa8ff;
+    font-weight: 400;
+    font-size: 20px;
+    text-overflow: ellipsis;
+}
+
+.ant-card-meta {
+    margin: 5px;
+    padding: 5px;
+    zoom: 1;
+  }
+
+#user-name {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1px;
+
+}
+
+.alert {
+    background-color: #ff4545;
+    margin: 50px;
+}
+.ant-carousel .slick-dots li button {
+  display: block;
+  width: 16px;
+  height: 3px;
+  padding: 0;
+  color: transparent;
+  font-size: 0;
+  background:black;
+  border: 0;
+  border-radius: 1px;
+  outline: none;
+  cursor: pointer;
+  opacity: 0.3;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+input {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.ant-list-pagination {
+  margin-top: 24px;
+  text-align: center;
+}
+.caption, .title-text {
+    margin-right: 40px;
+    margin-left: 40px;  
+    text-align: center;
+}
+
+.search-story {
+    margin-right: 10px;
+    margin-left: 10px;  
+}
+.log-in, .log-out, .register {
+  background-color: #00acb0;
+  border-radius: 4px;
+  color: #f8f8f8;
+  min-height: 50px;
+  min-width: 100px;
+  outline:0;
+  cursor: pointer;
+}
+
+.log-in:hover, .log-out:hover, .register:hover {
+  background-color: #008183;
+}
+.center-button {
+    text-align: center;
+
+}
+/* This line makes the "Register" and "Login" buttons look like links */
+.link-button {
+    background:none;
+    color:inherit;
+    border:none;
+    padding:0;
+    font: inherit;
+    outline:0;
+    border-bottom:1px solid #444; 
+    cursor: pointer;
+}
+
+.edit-button {
+    display: block;
+    margin: auto; 
+    background-color: rgb(217, 139, 79); 
+    font-weight: bold; 
+    color: black; 
+}
